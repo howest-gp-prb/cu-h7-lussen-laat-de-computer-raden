@@ -1,0 +1,28 @@
+﻿<Window x:Class="RaadPogingen.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RaadPogingen.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="287.805" Width="443.902" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Tik een getal in tussen 1 en " HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="txtTeRaden" HorizontalAlignment="Left" Height="23" Margin="223,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+        <Button x:Name="btnRaad" Content="Laat de computer raden" HorizontalAlignment="Left" Margin="24,52,0,0" VerticalAlignment="Top" Width="159" Click="BtnRaad_Click"/>
+        <ListBox x:Name="lstGokjes" HorizontalAlignment="Left" Height="187" Margin="327,52,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Raadsels" HorizontalAlignment="Left" Margin="329,14,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.197"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lblMax" Content="0" HorizontalAlignment="Left" Margin="173,10,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="lblFeedback" Content="" HorizontalAlignment="Left" Margin="24,84,0,0" VerticalAlignment="Top" Width="267"/>
+
+    </Grid>
+</Window>
