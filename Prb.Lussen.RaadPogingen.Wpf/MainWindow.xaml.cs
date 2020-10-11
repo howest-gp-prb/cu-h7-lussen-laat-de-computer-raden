@@ -20,7 +20,7 @@ namespace Prb.Lussen.RaadPogingen.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        Random random = new Random();
+        Random random = new Random(); /* Deze variabele zal gebruikt kunnen worden om een willekeurig getal te genereren */
         const int MAX_GETAL = 10000;
 
         public MainWindow()
@@ -39,7 +39,7 @@ namespace Prb.Lussen.RaadPogingen.Wpf
             while (gok != teRaden)
             {
                 gok = random.Next(1, MAX_GETAL + 1);
-                lstGokjes.Items.Insert(0, gok);
+                lstGokjes.Items.Insert(0, gok); /* Met Insert voeg je iets toe op een bepaalde plaats in een lijst */
                 pogingen++;
             }
             lblFeedback.Content = $"Het getal {teRaden} is geraden in {pogingen} pogingen";
