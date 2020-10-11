@@ -21,33 +21,33 @@ namespace Prb.Lussen.RaadPogingen.Wpf
     public partial class MainWindow : Window
     {
         Random random = new Random(); /* Deze variabele zal gebruikt kunnen worden om een willekeurig getal te genereren */
-        const int MAX_GETAL = 10000;
+        const int MAX_NUMBER = 10000;
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void BtnRaad_Click(object sender, RoutedEventArgs e)
+        private void Guess_Click(object sender, RoutedEventArgs e)
         {
-            int teRaden;
-            int gok = -1;
-            int pogingen = 0;
+            int toGuess;
+            int guess = -1;
+            int nrOfTries = 0;
 
-            teRaden = int.Parse(txtTeRaden.Text);
+            toGuess = int.Parse(txtToGuess.Text);
 
-            while (gok != teRaden)
+            while (guess != toGuess)
             {
-                gok = random.Next(1, MAX_GETAL + 1);
-                lstGokjes.Items.Insert(0, gok); /* Met Insert voeg je iets toe op een bepaalde plaats in een lijst */
-                pogingen++;
+                guess = random.Next(1, MAX_NUMBER + 1);
+                lstGuesses.Items.Insert(0, guess); /* Met Insert voeg je iets toe op een bepaalde plaats in een lijst */
+                nrOfTries++;
             }
-            lblFeedback.Content = $"Het getal {teRaden} is geraden in {pogingen} pogingen";
+            lblFeedback.Content = $"Het getal {toGuess} is geraden in {nrOfTries} pogingen";
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            lblMax.Content = MAX_GETAL;
+            lblMax.Content = MAX_NUMBER;
         }
     }
 }
