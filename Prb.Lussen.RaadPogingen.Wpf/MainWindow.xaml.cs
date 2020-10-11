@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RaadPogingen.Wpf
+namespace Prb.Lussen.RaadPogingen.Wpf
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
