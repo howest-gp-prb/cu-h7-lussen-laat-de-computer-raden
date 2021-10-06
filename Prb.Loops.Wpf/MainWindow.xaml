@@ -1,9 +1,8 @@
-﻿<Window x:Class="Prb.Lussen.RaadPogingen.Wpf.MainWindow"
+﻿<Window x:Class="Prb.Loops.Wpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Prb.Lussen.RaadPogingen.Wpf"
         mc:Ignorable="d"
         Title="RaadPogingen"  Height="287.805" Width="443.902" Loaded="Window_Loaded">
     <Grid>

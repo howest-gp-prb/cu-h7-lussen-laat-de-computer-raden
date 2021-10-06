@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prb.Lussen.RaadPogingen.Wpf", "Prb.Lussen.RaadPogingen.Wpf\Prb.Lussen.RaadPogingen.Wpf.csproj", "{E16EDDA7-D4E3-4656-A1B8-061BA0A05CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prb.Loops.Wpf", "Prb.Loops.Wpf\Prb.Loops.Wpf.csproj", "{4C31BA6A-8DE5-4054-B452-5D26F6A15C75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E16EDDA7-D4E3-4656-A1B8-061BA0A05CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E16EDDA7-D4E3-4656-A1B8-061BA0A05CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E16EDDA7-D4E3-4656-A1B8-061BA0A05CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E16EDDA7-D4E3-4656-A1B8-061BA0A05CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C31BA6A-8DE5-4054-B452-5D26F6A15C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C31BA6A-8DE5-4054-B452-5D26F6A15C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C31BA6A-8DE5-4054-B452-5D26F6A15C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C31BA6A-8DE5-4054-B452-5D26F6A15C75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
